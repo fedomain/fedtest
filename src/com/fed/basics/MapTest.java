@@ -1,4 +1,4 @@
-package java.streams;
+package com.fed.basics;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,7 +9,17 @@ import java.util.Arrays;
 public class MapTest {
 
     public static void main(String[] args) {
-        Path file = Paths.get("/Users/federickkwok/projects/fedtest/java/src/com/fed/streams/test.txt");
+
+        ClassLoader classLoader = MapTest.class.getClassLoader();
+        Path file = null;
+
+        System.out.println(classLoader);
+
+        try {
+            file = Paths.get(classLoader.getResource("test.txt").toURI());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         // This is a test file
         // This test file is
