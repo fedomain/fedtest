@@ -1,4 +1,4 @@
-package com.fed.designpatterns.singleton;
+package java.designpatterns.singleton;
 
 import java.util.Arrays;
 import java.util.Collections;

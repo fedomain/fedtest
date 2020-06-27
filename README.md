@@ -1,2 +1,2 @@
-# fedtest
-## This is root of my repo
+# java repo
+## This is the root of the java testing repo

@@ -1,4 +1,4 @@
-package com.fed.designpatterns.singleton;
+package java.designpatterns.singleton;
 
 public class ScrabbleTestThreads{
 

@@ -1,4 +1,4 @@
-package com.fed.streams;
+package java.streams;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,7 +6,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 
-public class map {
+public class MapTest {
+
     public static void main(String[] args) {
         Path file = Paths.get("/Users/federickkwok/projects/fedtest/java/src/com/fed/streams/test.txt");
 
@@ -45,4 +46,5 @@ public class map {
         }*/
 
     }
+
 }
